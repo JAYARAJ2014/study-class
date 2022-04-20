@@ -40,6 +40,7 @@ while counter < number:
 if isprime:
     print('PRIME')
 else:
+
     print('NOT PRIME')
 
 
