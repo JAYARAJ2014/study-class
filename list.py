@@ -1,5 +1,7 @@
 country_list = ['USA','CA','PORTUGAL', 'INDIA','MEXICO','DUBAI']
-
+country_list.sort();
+country_list.remove('DUBAI');
+country_list.reverse();
 # method 1:
 # for index in range(0 , len(country_list)):
 #     print(country_list[index])
